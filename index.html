@@ -25,13 +25,22 @@
             <ul class="flex">
                 <li class="active"><a href="#">Home</a></li>
                 <li><a href="showcase.html">Showcase</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
             </ul>
         </nav>
-    </header>  
+        <i class="fas fa-bars" onclick="openMobileNav();"></i>
+    </header>
+    <nav class="mobile-nav">
+        <ul class="flex">
+            <li><a href="#">Home</a></li>
+            <li><a href="showcase.html">Showcase</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+    </nav>  
     <section class="owl-carousel owl-theme hero">
-        <div class="slide relative flex">
+        <div class="slide relative flex between">
             <div class="hero-text">
                 <h1>Revolutionise your digital world</h1>
                 <p>We design, build and launch websites and products that are simple, beautiful and helps businesses grow</p>
@@ -183,7 +192,7 @@
         <div class="section-title flex between relative">
             <div class="title-style absolute"></div>
             <h2>Some of our finest works</h2>
-            <p><a href="#">Explore more</a></p>
+            <!-- <p><a href="#">Explore more</a></p> -->
         </div>
         <div class="finest-works-wrap flex wrap between">
             <div class="finest-works-item">
